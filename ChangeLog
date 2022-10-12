@@ -14,11 +14,11 @@ Mon Jun 13 01:00:00 2005  Google Inc. <opensource@google.com>
 	  [MODERATE]
 	  Fix platform and Python version issues.  In some versions of 2.2
 	  and certain platforms, True was not defined.  Gak!
-	
+
 Tue Jul 12 01:00:00 2005  Google Inc. <opensource@google.com>
 
 	* sitemap_gen.py: v1.2
-	  
+
 	  [MODERATE]
 	  Default_file option added to directory walking
 	  Support for Extended Logfile Format (IIS's log format)
@@ -26,7 +26,7 @@ Tue Jul 12 01:00:00 2005  Google Inc. <opensource@google.com>
 	    input methods.
 	  Running on Python 1.5 should exit cleanly with an error message
 	  Stricter processing of configuration files
-	  
+
 	  [SMALL]
 	  XML files written in "text" mode, so linefeeds are correct
 	  One more Unicode issue fixed: Sitemap filenames with non-ascii
@@ -67,19 +67,25 @@ Wed Nov 03 01:00:00 2005  Google Inc. <opensource@google.com>
 Wed Jul 18 01:00:00 2007  Google Inc. <opensource@google.com>
 
 	* sitemap_gen.py: v.1.5
-	
+
 	  [BIG]
 	  Removed <sitemap ... /> input method.
-	  
+
 	  [BIG]
 	  Added News Sitemap functionality.
 
 	  [SMALL]
 	  Updated namespace to sitemaps.org.
- 
+
 	  [SMALL]
-   	  Included ability to delete empty directories from Sitemap.
+	  Included ability to delete empty directories from Sitemap.
 
 	  [SMALL]
 	  Added messaging for file permission issues.
-	  
+
+Wed Oct 13 01:00:00 2022  Vladyslav Movchan <vladislav.movchan@gmail.com>
+
+	* sitemap_gen.py: v.1.6
+
+	  Port to Python 3
+
