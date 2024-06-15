@@ -92,7 +92,7 @@ NEWS_SPECIFIC_TAGS = ['keywords', 'publication_date', 'stock_tickers']
 NEWS_SITEMAP_TAGS = GENERAL_SITEMAP_TAGS + NEWS_SPECIFIC_TAGS
 
 # Maximum number of urls in each sitemap, before next Sitemap is created
-MAXURLS_PER_SITEMAP = 50000
+MAXURLS_PER_SITEMAP = 20000
 
 # Suffix on a Sitemap index file
 SITEINDEX_SUFFIX = '_index.xml'
